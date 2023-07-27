@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+   <div class="container-fluid">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="/index.html">OJ</a>
+    </div>
+    <div>
+     <ul class="nav navbar-nav">
+      <li><a href="/problemset.php">Problemset</a></li>
+      <li class="active"><a href="#">Submit</a></li>
+      <li><a href="/status.php">Status</a></li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-4 column">
+			<h3>Reset Username</h3>
+			<form role="form" action="dashboard.php" method="post">
+				<div class="form-group">
+					 <label for="nname">New Username</label>
+					<input type="text" class="form-control" name="nname" />
+				</div>
+				<button type="submit" class="btn btn-primary">Done</button>
+			</form>
+		</div>
+		<div class="col-md-4 column">
+			<h3>Reset Password</h3>
+			<form role="form" action="dashboard.php" method="post">
+				<div class="form-group">
+					 <label for="npasswd">New Password</label>
+					<input type="password" class="form-control" name="npasswd" />
+				</div>
+				<button type="submit" class="btn btn-primary">Done</button>
+			</form> 
+		</div>
+		<div class="col-md-4 column">
+			<h3>Reset Introduction</h3>
+			<form role="form" action="dashboard.php" method="post">
+				<div class="form-group">
+					 <label for="nintr">New Introduction</label>
+					<textarea class="form-control" rows="5" name="nintr"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Done</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

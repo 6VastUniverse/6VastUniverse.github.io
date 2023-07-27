@@ -1,0 +1,1 @@
+{"uid":"1","time":"2019-02-28 11:43:45","title":"Solution P1001","content":"<code><pre>\r\n#include &lt;bits\/stdc++.h&rt;\r\nusing namespace std;\r\n\r\nint main(){\r\nint a,b;\r\ncin&rt;&rt;a&rt;&rt;b;\r\ncout&lt;&lt;a+b;\r\nreturn 0;\r\n}\r\n<\/pre><\/code>"}

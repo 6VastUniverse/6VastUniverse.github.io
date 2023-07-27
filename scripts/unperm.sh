@@ -1,0 +1,1 @@
+chown -R user ../submissions ../record ../user/database ../blog/content && chown user ../blog/wiki.json
